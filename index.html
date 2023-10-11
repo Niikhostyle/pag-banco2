@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Example</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="img/logo-bancointernacional-azul.44d7e287.svg" class="navbar-logo" alt="Logo de Banco Internacional">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">INGRESO PERSONAS</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+                <img src="img/ed_slider_web_septiembre_15ae9c913a.jpg" class="d-block w-100" alt="7 cuotas sin interés">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>7 cuotas sin <br> interés</h1>
+                    <h2>Oportunidad exclusiva para <br>Tarjetas de Crédito Banco <br> Internacional</h2>
+                    <div><br><br></div>
+                    <a href="https://www.internacional.cl/productos/credito-consumo-personas" class="btn btn-color-watermelon btn-rounded btn-large">Infórmate aquí</a>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="img/slider_web_agosto_3ef437d0f6.jpg" class="d-block w-100" alt="Solicita tu Avance en Cuotas">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Solicita <br>tu Avance en <br>Cuotas</h1>
+                    <h2>Sin comisión</h2>
+                    <div><br><br></div>
+                    <a href="https://www.internacional.cl/productos-campana/3" class="btn btn-color-watermelon btn-rounded btn-large">Infórmate aquí</a>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="img/banner_web_desktop_1920x1080_977dea57e4.jpg" class="d-block w-100" alt="Toma una buena decisión">
+                <div class="carousel-caption d-none d-md-block text-start">
+                    <div class="d-flex flex-column align-items-xxl-start justify-content-center h-100">
+                        <h1>Toma una <br>buena decisión</h1>
+                        <h2>Tu crédito de consumo 100% <br>online, rápido y sin <br> complicaciones</h2>
+                        <a href="https://www.internacional.cl/productos/credito-consumo-personas" class="btn btn-color-watermelon btn-rounded btn-large">Infórmate aquí</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div><br><br><br><br><br><br></div>
+    <div class="informative-section py-1 py-lg-5 container-fluid">
+        <div class="ant-row">
+            <div class="ant-col px-3 ant-col-lg-24 ant-col-xl-12">
+                <div class="informative-section__container mx-auto">
+                    <div class="ant-row h-100">
+                        <div class="ant-col my-auto h-100 ant-col-xs-10 ant-col-sm-12">
+                            <div class="img-card">
+                                <img class="img-consumer-credit" src="https://w2.internacional.cl/uploads/portability_063a893644.png" alt="Mejora tu experiencia">
+                            </div>
+                        </div>
+                        <div class="ant-col my-auto ant-col-xs-14 ant-col-sm-12">
+                            <h2>¿Quieres una <b>mejor experiencia?</b></h2>
+                            <button id="btn-solicitar-portabilidad" type="button" class="btn btn-color-watermelon btn-rounded d-none d-sm-block">Solicitar Portabilidad</button>
+                        </div>
+                        <div class="ant-col ant-col-xs-24 ant-col-md-0">
+                            <button id="btn-solicitar-portabilidad" type="button" class="btn btn-color-watermelon btn-rounded d-block d-sm-none mx-auto">Solicitar Portabilidad</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ant-col px-3 ant-col-lg-24 ant-col-xl-12">
+                <div class="informative-section__container mx-auto">
+                    <div class="ant-row h-100">
+                        <div class="ant-col my-auto h-100 ant-col-xs-10 ant-col-sm-12">
+                            <div class="img-card">
+                                <img class="img-consumer-credit" src="https://w2.internacional.cl/uploads/370x415_716d36cd5f.jpg" alt="Crédito de Consumo 100% digital">
+                            </div>
+                        </div>
+                        <div class="ant-col my-auto ant-col-xs-14 ant-col-sm-12">
+                            <h2>Crédito de Consumo <b>100% digital</b></h2>
+                            <button id="btn-consulta-oferta" type="button" class="btn btn-color-watermelon btn-rounded d-none d-sm-block">Consulta si tienes una oferta aquí</button>
+                        </div>
+                        <div class="ant-col ant-col-xs-24 ant-col-md-0">
+                            <button id="btn-consulta-oferta" type="button" class="btn btn-color-watermelon btn-rounded d-block d-sm-none mx-auto">Consulta si tienes una oferta aquí</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="py-3 py-md-3 container-md-full container mt-lg-2">
+            <div class="row">
+                <div class="col-12 col-md-3 d-none d-lg-block">
+                                <h3 class=" text-left text-primary mb-5" style="font-size: 32px !important;">Disfruta de los mejores <strong>Beneficios </strong></h3>
+                  
+                </div>
+
+
+                <div class="col-12 col-lg-9">
+                    <div class="row">
+                        
+                        <div class="col-12 col-sm-6 col-md-4 d-flex mb-4">
+                            <a id="ppp_beneficio-link-z3-en-septiembre-las-compras-con-tu-tarjeta-de-credito-banco-edwards-participan-por-dolares-premio" rel="nofollow" class="w-100 h-100 cardDestacada borderNin" href="https://portales.bancochile.cl/personas/beneficios/promociones/detalles/en-septiembre-las-compras-con-tu-tarjeta-de-credito-banco-edwards-participan-por-dolares-premio">
+
+                                <div class="imgDest">
+                                    <figure class="" style="background-image:url(https://portales.bancochile.cl/uploads/000/056/022/ac3294aa-db45-4240-924f-d18d8c8e4b6d/original/dpbch.jpg);"></figure>
+                                </div>
+                            
+                                <div class="tituloDest">¡Participa del sorteo por 130<br>Dólares-Premio usando tu Tarjeta de Crédito!</div>
+                                <div class="bajadaDest">Válido hasta el 21 de septiembre.</div> 
+
+                                
+                                <span class="seemore">Conoce más <i class="la la-angle-right ml-2"></i></span>
+                                
+                            </a>
+                        </div>
+                        
+                        <div class="col-12 col-sm-6 col-md-4 d-flex mb-4">
+                            <a id="ppp_beneficio-link-z3-luis-miguel-2024" rel="nofollow" class="w-100 h-100 cardDestacada borderNin" href="https://portales.bancochile.cl/personas/beneficios/promociones/detalles/luis-miguel-2024">
+                                <div class="imgDest">
+                                    <figure class="" style="background-image:url(https://portales.bancochile.cl/uploads/000/056/101/edbf9041-7051-4589-988a-2705be82bdee/original/bannerluismiguelv2.jpg);"></figure>
+                                </div>
+                            
+                                <div class="tituloDest">¡Luis Miguel vuelve a Chile!</div>
+                                <div class="bajadaDest"><p>Compra tus entradas con los mejores beneficios de tus Tarjetas del Chile.</p></div> 
+
+                                
+                                <span class="seemore">Conoce más <i class="la la-angle-right ml-2"></i></span>
+                                
+                            </a>
+                        </div>
+                        
+                        <div class="col-12 col-sm-6 col-md-4 d-flex mb-4">
+                            <a id="ppp_beneficio-link-z3-la-camiseta-oficial-de-los-condores-puede-ser-tuya" rel="nofollow" class="w-100 h-100 cardDestacada borderNin" href="https://portales.bancochile.cl/personas/beneficios/promociones/detalles/la-camiseta-oficial-de-los-condores-puede-ser-tuya">
+                                <div class="imgDest">
+                                    <figure class="" style="background-image:url(https://portales.bancochile.cl/uploads/000/056/051/fd91361e-2412-4d8b-8c1c-d2f5fef72b34/original/camisetachile.jpg);"></figure>
+                                </div>
+                            
+                                <div class="tituloDest">¡La camiseta oficial de Los Cóndores puede ser tuya!</div>
+                                <div class="bajadaDest"><p>Usa tus Tarjetas del Chile y participa.</p></div> 
+
+                                
+                                <span class="seemore">Conoce más <i class="la la-angle-right ml-2"></i></span>
+                                
+                            </a>
+                        </div>
+                        
+                        <div class="col-12 col-sm-6 col-md-4 d-flex mb-4">
+                            <a id="ppp_beneficio-link-z3-shell-beneficio" rel="nofollow" class="w-100 h-100 cardDestacada borderNin" href="https://portales.bancochile.cl/personas/beneficios/beneficios-y-descuentos/detalles/shell-beneficio">
+                                <div class="imgDest">
+                                    <figure class="" style="background-image:url(https://portales.bancochile.cl/uploads/000/053/020/76e7040b-761d-4df9-ba8e-175c205ccb31/original/banner-shell-julio-BCH.jpg);"></figure>
+                                </div>
+                            
+                                <div class="tituloDest">Shell</div>
+                                <div class="bajadaDest">$120 de dcto por litro de combustible en App Micopiloto</div> 
+
+                                
+                                <span class="seemore">Conoce más <i class="la la-angle-right ml-2"></i></span>
+                                
+                            </a>
+                        </div>
+                        
+                        <div class="col-12 col-sm-6 col-md-4 d-flex mb-4">
+                            <a id="ppp_beneficio-link-z3-disfruta-lo-que-quieras-en-3-cuotas-sin-interes-con-tu-tarjeta-de-credito-del-chile" rel="nofollow" class="w-100 h-100 cardDestacada borderNin" href="https://portales.bancochile.cl/personas/beneficios/promociones/detalles/disfruta-lo-que-quieras-en-3-cuotas-sin-interes-con-tu-tarjeta-de-credito-del-chile">
+                                <div class="imgDest">
+                                    <figure class="" style="background-image:url(https://portales.bancochile.cl/uploads/000/048/999/758cd2f1-dc58-4063-a434-fc66330628d5/original/BannerBCH.jpg);"></figure>
+                                </div>
+                            
+                                <div class="tituloDest">¡Todo lo que necesites en 3 cuotas sin interés!</div>
+                                <div class="bajadaDest">Pagando con tu Tarjeta de Crédito del Chile.</div> 
+
+                                
+                                <span class="seemore">Conoce más <i class="la la-angle-right ml-2"></i></span>
+                                
+                            </a>
+                        </div>
+                        
+                        <div class="col-12 col-sm-6 col-md-4 d-flex mb-4">
+                            <a id="ppp_beneficio-link-z3-seguro-de-viaje-total" rel="nofollow" class="w-100 h-100 cardDestacada borderNin" href="https://portales.bancochile.cl/personas/seguros/viaje/detalles/seguro-de-viaje-total">
+                                <div class="imgDest">
+                                    <figure class="" style="background-image:url(https://portales.bancochile.cl/uploads/000/056/376/1f1f98e8-c8d4-450d-bec8-77c41386366e/original/viaje-15-septiembre_1_.jpg);"></figure>
+                                </div>
+                            
+                                <div class="tituloDest">Seguro de viaje con 15% dcto.</div>
+                                <div class="bajadaDest">Protégete ante eventualidades en tus viajes fuera de Chile con 15%dcto. Cotiza y contrata para ti o tu grupo familiar.</div> 
+
+                                
+                                <span class="seemore">Conoce más <i class="la la-angle-right ml-2"></i></span>
+                                
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+
+                <div class="col-12 ">
+                    <div class="justify-content-center pb-5 bg-white d-flex d-md-none "><a class="btn btn-secondary btn-pill btn-lg " href="https://portales.bancochile.cl/personas/beneficios" id="ppp_beneficio-link-z3-ir_a_todos_los_beneficios" tabindex="0">IR A TODOS LOS BENEFICIOS</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5 border p-4">
+            <h1 class="mb-4">Simuladorr de Crédito de Consumo</h1>
+            <form id="creditCalculator">
+                <div class="form-group">
+                    <label for="loanAmount">Monto del Crédito:</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">$</span>
+                        </div>
+                        <input type="text" class="form-control" id="loanAmount" required oninput="formatLoanAmount(this)">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="loanTerm">Plazo (meses):</label>
+                    <input type="number" class="form-control" id="loanTerm" required>
+                </div>
+                <div class="form-group">
+                    <label for="interestRate">Tasa de Interés (%):</label>
+                    <input type="number" class="form-control" id="interestRate" required>
+                </div>
+                <button type="button" class="btn btn-primary" onclick="calculateLoan()">Calcular</button>
+            </form>
+            <div class="mt-4">
+                <h3 class="cuota-header">Cuota Mensual:</h3>
+                <p id="monthlyPayment" class="cuota-paragraph"></p>
+            </div>
+        </div>
+        
+        <script>
+            function formatLoanAmount(input) {
+                // Remueve todos los caracteres no numéricos y los puntos actuales
+                const numericValue = input.value.replace(/[^0-9]/g, '');
+        
+                // Formatea el número con separador de miles (punto) y lo asigna al campo
+                input.value = formatNumberWithCommas(numericValue);
+            }
+        
+            // Función para formatear un número con separador de miles (punto) y formato CLP
+            function formatNumberWithCommas(number) {
+                return new Intl.NumberFormat('es-CL', { style: 'currency', currency: 'CLP' }).format(number);
+            }
+        
+            function calculateLoan() {
+                const loanAmountInput = document.getElementById('loanAmount');
+                const loanAmount = parseInt(loanAmountInput.value.replace(/[^0-9]/g, ''));
+                const loanTerm = parseInt(document.getElementById('loanTerm').value);
+                const interestRate = parseInt(document.getElementById('interestRate').value);
+        
+                if (isNaN(loanAmount) || isNaN(loanTerm) || isNaN(interestRate)) {
+                    alert('Por favor, ingrese valores válidos.');
+                    return;
+                }
+        
+                const monthlyInterestRate = (interestRate / 100) / 12;
+                const monthlyPayment = (loanAmount * monthlyInterestRate) / (1 - Math.pow(1 + monthlyInterestRate, -loanTerm));
+        
+                // Formatea el número como moneda chilena (CLP)
+                const formattedMonthlyPayment = formatNumberWithCommas(monthlyPayment.toFixed(0));
+        
+                document.getElementById('monthlyPayment').textContent = `${formattedMonthlyPayment} por mes`;
+            }
+        </script>
+        
+
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+<br>
+<footer class="bg-light">
+    <br>
+    <br>
+  <div class="container">
+      <div class="row">
+          <div class="col-md-3">
+              <h5>Conócenos</h5>
+              <ul>
+                  <li><a href="/productos">Nuestros productos</a></li>
+                  <li><a href="/nuestro-banco">Nuestro banco</a></li>
+                  <li><a href="/sucursales-centros">Sucursales y centros de negocios</a></li>
+                  <li><a href="/investor-relations">Investor relations</a></li>
+                  <li><a href="/tasas-y-comisiones">Tasas y comisiones</a></li>
+                  <li><a href="/premios-y-reconocimientos">Premios y Reconocimientos</a></li>
+                  <li><a href="https://bancointernacional.trabajando.cl/" target="_blank" rel="noopener noreferrer">Trabaja con nosotros</a></li>
+              </ul>
+          </div>
+          <div class="col-md-3">
+              <h5>Contáctanos</h5>
+              <ul>
+                  <li><a href="/emergencias">Reporta tu emergencia</a></li>
+                  <li><a href="/servicio-al-cliente">Servicio al cliente</a></li>
+                  <li><a href="/mapa-de-sitio">Mapa de Sitio</a></li>
+              </ul>
+          </div>
+          <div class="col-md-3">
+              <h5>Infórmate</h5>
+              <ul>
+                  <li><a target="_blank" href="https://w2.internacional.cl/uploads/Ley20_448_aa24178ee8.pdf">Crédito universal</a></li>
+                  <li><a href="/licitacion-de-seguros">Licitaciones de seguro</a></li>
+                  <li><a target="_blank" href="https://w2.internacional.cl/uploads/homologados_F_a5d500225a.pdf">Ley 21.234</a></li>
+                  <li><a target="_blank" href="https://w2.internacional.cl/uploads/Ley21_389_b218611cda.pdf">Ley 21.389</a></li>
+                  <li><a target="_blank" href="https://w2.internacional.cl/uploads/Ley21_484_a7fd48816f.pdf">Ley 21.484</a></li>
+                  <li><a href="/politicas-de-privacidad" target="_blank" rel="noopener noreferrer">Política de Privacidad Aplicación Internacional CL</a></li>
+              </ul>
+          </div>
+          <div class="col-md-3">
+              <h5>Sitios relacionados</h5>
+              <ul>
+                  <li><img src="https://w2.internacional.cl/uploads/baninter_36f42c5c32.png" alt="icon" style="max-width: 24px;"> <a href="https://www.baninterseguros.cl/" target="_blank" rel="noopener noreferrer">Baninter Corredores de Seguros</a></li>
+                  <li><img src="https://w2.internacional.cl/uploads/ffmm_68ad5b0a21.svg" alt="icon" style="max-width: 24px;"> <a href="/agf">Fondos Mutuos</a></li>
+              </ul>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-md-3">
+              <h5>Contact Center</h5>
+              <ul>
+                  <li><a href="/emergencias">Horario de atención: 24/7</a></li>
+                  <li><img src="https://w2.internacional.cl/uploads/tel_inoco_1f407c18b5_fd38ae00aa.png" alt="icon" style="max-width: 24px;"> <a href="tel:6003635000">600 363 5000 </a></li>
+                  <li><img src="https://w2.internacional.cl/uploads/phonelink_ring_1_fe75c14a79.svg" alt="icon" style="max-width: 24px;"> <a href="tel:+562 2989 7000">+562 2989 7000</a></li>
+              </ul>
+          </div>
+      </div>
+  </div>
+</footer>

@@ -1,0 +1,2329 @@
+/* Estilos personalizados */
+@font-face {
+  font-family: "Muli";
+  src: url("fonts/Muli.ttf") format("truetype");
+  /* Agrega otras fuentes (como Bold, Italic, etc.) según sea necesario */
+}
+
+element.style {
+}
+
+.navbar {
+  padding: 8px 0;
+}
+
+@media screen and (min-width: 768px) .navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  background-color: initial;
+  padding: 25px 0;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  background-color: initial;
+  padding: 25px 0;
+}
+
+article,
+aside,
+dialog,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+  display: block;
+}
+* {
+  font-family: "Muli", sans-serif;
+}
+body {
+  margin: 0;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+    "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-variant: tabular-nums;
+  line-height: 1.5;
+  background-color: #fff;
+  -webkit-font-feature-settings: "tnum";
+  font-feature-settings: "tnum", "tnum";
+}
+
+body {
+  background: #fff;
+  font-weight: 300;
+}
+body {
+  margin: 0;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  background-color: #fff;
+  font-feature-settings: "tnum", "tnum";
+}
+html {
+  --antd-wave-shadow-color: #1890ff;
+}
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+html {
+  --antd-wave-shadow-color: #1890ff;
+  --scroll-bar: 0;
+}
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.btn-color-watermelon {
+  color: #fff;
+  background-color: #d90d39;
+}
+.btn-large {
+  font-size: 26px;
+  padding: 10px 6rem !important;
+}
+.btn-rounded {
+  border-radius: 40px;
+}
+.btn {
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Estilos para los elementos del navbar */
+.nav-item a {
+  cursor: pointer;
+  background-color: rgba(61, 61, 61, 0.25);
+  font-size: 12px;
+  border: 1px solid #fff;
+  border-radius: 40px;
+  text-align: center;
+  color: #fff;
+  padding: 10px 22px;
+  margin-left: 10px;
+  line-height: 0;
+  font-family: "Muli", sans-serif; /* Aplica la fuente "Muli" */
+}
+
+.slick-slider {
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  color: #fff;
+  background: #1890ff;
+}
+::selection {
+  color: #fff;
+  background: #1890ff;
+}
+.carousel.carousel-dark .carousel-caption {
+  color: white; /* Cambia el color del texto a blanco (puedes ajustarlo según tus preferencias) */
+  text-align: left; /* Alinea el texto a la izquierda */
+  position: absolute; /* Posiciona los elementos en relación con el contenedor del carrusel */
+  top: 50%; /* Coloca los elementos verticalmente en el centro de la diapositiva */
+  transform: translateY(-50%); /* Ajusta la posición vertical */
+  left: 10; /* Alinea el texto a la izquierda */
+  padding-left: 20px; /* Agrega un espacio desde el borde izquierdo */
+  padding-right: 20px; /* Agrega un espacio desde el borde derecho (ajusta según sea necesario) */
+}
+
+/* Estilos para los elementos de texto dentro del carousel */
+.carousel-caption h1,
+.carousel-caption h2,
+.carousel-caption a {
+  font-family: "Muli", sans-serif; /* Aplica la fuente "Muli" */
+  margin: 0; /* Elimina los márgenes para un mejor ajuste */
+  padding: 0; /* Elimina el espacio interno para un mejor ajuste */
+}
+
+/* Estilos para aumentar el tamaño de fuente de h1 en la diapositiva del carrusel */
+.carousel-caption h1 {
+  font-size: 75px; /* Ajusta el tamaño de fuente según tus preferencias */
+}
+
+/* Estilos para aumentar el tamaño de fuente de h2 en la diapositiva del carrusel */
+.carousel-caption h2 {
+  font-size: 40px; /* Ajusta el tamaño de fuente según tus preferencias */
+}
+
+/* Estilos para aumentar el tamaño de fuente del botón en la diapositiva del carrusel */
+.carousel-caption a {
+  font-size: 26px; /* Ajusta el tamaño de fuente según tus preferencias */
+}
+.carousel-caption a:hover {
+  border: 1px solid #fff; /* Agrega un borde blanco al botón al pasar el cursor */
+}
+
+element.style {
+}
+@media (min-width: 992px) .pb-lg-5, .py-lg-5 {
+  padding-bottom: 3rem !important;
+}
+@media (min-width: 992px) .pt-lg-5, .py-lg-5 {
+  padding-top: 3rem !important;
+}
+.pb-1,
+.py-1 {
+  padding-bottom: 0.25rem !important;
+}
+.pt-1,
+.py-1 {
+  padding-top: 0.25rem !important;
+}
+.container-fluid {
+  margin: 0;
+}
+.informative-section {
+  background-color: #f2f2f2;
+  padding: 10px 0 5px;
+}
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+* {
+  font-family: "Muli", sans-serif;
+}
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+user agent stylesheet div {
+  display: block;
+}
+body {
+  margin: 0;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+    "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-variant: tabular-nums;
+  line-height: 1.5;
+  background-color: #fff;
+  -webkit-font-feature-settings: "tnum";
+  font-feature-settings: "tnum", "tnum";
+}
+body {
+  background: #fff;
+  font-weight: 300;
+}
+body {
+  margin: 0;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  background-color: #fff;
+  font-feature-settings: "tnum", "tnum";
+}
+html {
+  --antd-wave-shadow-color: #1890ff;
+}
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+html {
+  --antd-wave-shadow-color: #1890ff;
+  --scroll-bar: 0;
+}
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+::selection {
+  color: #fff;
+  background: #1890ff;
+}
+::selection {
+  color: #fff;
+  background: #1890ff;
+}
+
+element.style {
+}
+.ant-row,
+.ant-row:after,
+.ant-row:before {
+  display: flex;
+}
+.ant-row {
+  flex-flow: row wrap;
+  min-width: 0;
+}
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+* {
+  font-family: "Muli", sans-serif;
+}
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+user agent stylesheet div {
+  display: block;
+}
+body {
+  margin: 0;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+    "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-variant: tabular-nums;
+  line-height: 1.5;
+  background-color: #fff;
+  -webkit-font-feature-settings: "tnum";
+  font-feature-settings: "tnum", "tnum";
+}
+body {
+  background: #fff;
+  font-weight: 300;
+}
+body {
+  margin: 0;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  background-color: #fff;
+  font-feature-settings: "tnum", "tnum";
+}
+html {
+  --antd-wave-shadow-color: #1890ff;
+}
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+html {
+  --antd-wave-shadow-color: #1890ff;
+  --scroll-bar: 0;
+}
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.ant-row,
+.ant-row:after,
+.ant-row:before {
+  display: flex;
+}
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+.ant-row,
+.ant-row:after,
+.ant-row:before {
+  display: flex;
+}
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+::selection {
+  color: #fff;
+  background: #1890ff;
+}
+::selection {
+  color: #fff;
+  background: #1890ff;
+}
+.cardDestacada figure {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  transition: All 0.3s ease;
+  -webkit-transition: All 0.3s ease;
+  -moz-transition: All 0.3s ease;
+  -o-transition: All 0.3s ease;
+  scale: 1.15;
+  margin: 0;
+}
+element.style {
+  background-image: url(https://portales.bancochile.cl/uploads/000/056/022/ac3294aa-db45-4240-924f-d18d8c8e4b6d/original/dpbch.jpg);
+}
+figure {
+  margin: 0;
+}
+article,
+aside,
+dialog,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+  display: block;
+}
+figure {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+}
+
+/*Nuevo estilo cards*/
+/* Nueva card destacada */
+.borderNin {
+  background: #ffffff;
+  border: 1px solid #f0f2f5;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+.btnTextLink {
+  font-family: Nunito Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.4000000059604645px;
+  text-align: left;
+  padding-right: 30px;
+  background-image: url(https://portales.bancochile.cl/uploads/000/020/353/879aade4-1056-49b8-9134-ca1ff7faa51d/original/flecha-ir.png);
+  background-size: initial;
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+.cardDestacada {
+  padding: 8px;
+  padding-bottom: 16px;
+  border-radius: 16px;
+  position: relative;
+  overflow: hidden;
+  min-height: 390px;
+}
+.cardDestacada:hover {
+  padding-bottom: 50px;
+  transition: All 0.3s ease;
+  -webkit-transition: All 0.3s ease;
+  -moz-transition: All 0.3s ease;
+  -o-transition: All 0.3s ease;
+  -moz-box-shadow: 0px 4px 12px rgba(42, 52, 61, 0.1);
+  -webkit-box-shadow: 0px 4px 12px rgba(42, 52, 61, 0.1);
+  box-shadow: 0px 4px 12px rgba(42, 52, 61, 0.1);
+}
+.cardDestacada .imgDest {
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+  transition: All 0.3s ease;
+  -webkit-transition: All 0.3s ease;
+  -moz-transition: All 0.3s ease;
+  -o-transition: All 0.3s ease;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+.cardDestacada figure {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  transition: All 0.3s ease;
+  -webkit-transition: All 0.3s ease;
+  -moz-transition: All 0.3s ease;
+  -o-transition: All 0.3s ease;
+  scale: 1.15;
+  margin: 0;
+}
+.cardDestacada:hover .imgDest {
+  height: 130px;
+}
+.cardDestacada:hover figure {
+  scale: 1;
+}
+.cardDestacada h2 {
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.cardDestacada .seemore {
+  width: calc(100% - 16px);
+  text-align: left;
+  position: absolute;
+  left: 8px;
+  bottom: -50px;
+  border-top: 1px solid #f0f2f5;
+  padding-top: 16px;
+  transition: All 0.3s ease;
+  -webkit-transition: All 0.3s ease;
+  -moz-transition: All 0.3s ease;
+  -o-transition: All 0.3s ease;
+  font-weight: 700;
+  letter-spacing: 0.4000000059604645px;
+}
+.cardDestacada:hover .seemore {
+  bottom: 24px;
+}
+.cardDestacada .seemore i {
+  position: absolute;
+  right: 0;
+}
+
+.cardDestacada .tituloDest {
+  width: 100%;
+  /*height: 100px;*/
+  padding: 0 8px 8px 8px;
+  overflow: hidden;
+  font-weight: 700;
+  font-size: 16px !important;
+}
+
+.cardDestacada .bajadaDest {
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  padding: 0 8px;
+}
+.cardDestacada .bajadaDest h3 {
+  font-family: Nunito Sans;
+  font-size: 16px !important;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.cardDestacada .bajadaDest p {
+  margin: 0;
+}
+/* Fin Nueva card destacada */
+
+/* #Mega Menu Styles
+â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
+
+.mega-menu .tag-menu-nuevo,
+.submenu .tag-menu-nuevo {
+  background: #5583ff;
+  border-radius: 8px;
+  display: flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px;
+  font-size: 14px;
+  color: #ffffff;
+  margin-top: -3px !important;
+}
+
+.mega-menu {
+  background: white;
+  left: 0;
+  top: 100%;
+  position: absolute;
+  text-align: left;
+  width: 100%;
+  z-index: 9;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+  transform: translate(-2000vw, 0);
+  transition: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.mega-menu.active {
+  transform: translate(0, 0);
+}
+
+.mega-menu ul:last-child {
+  margin-right: 0;
+}
+
+.mega-menu li.title {
+  margin-bottom: 0;
+  font-size: 20px;
+  line-height: 24px;
+}
+.mega-menu li.title a {
+  padding: 0;
+}
+.mega-menu a {
+  color: rgba(1, 34, 93, 1);
+  display: block;
+  width: 100%;
+  padding: 24px 0 0;
+  display: flex;
+  align-items: normal;
+}
+.mega-menu a:hover {
+  color: #2d6a91;
+}
+.mega-menu a i {
+  font-size: 24px;
+  margin-right: 12px;
+  color: rgba(79, 125, 255, 1);
+}
+.mega-menu a i span:before {
+  color: rgba(79, 125, 255, 1) !important;
+}
+/* #Droppable Class Styles
+â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
+.droppable {
+  position: static;
+}
+
+/* #Browser Clearfix
+â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+.cf:after {
+  clear: both;
+}
+
+/* #Menu
+â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
+#menu_icon {
+  color: white;
+  font-size: 26px;
+}
+#menu_icon i {
+  font-weight: bold;
+}
+
+@media (max-width: 769px) {
+  .mega-menu {
+    box-shadow: none;
+    background: #f0effc;
+    transition: 0.4s;
+    overflow: hidden;
+    height: 0px;
+    transform: translate(0, 0);
+    position: static;
+  }
+}
+
+/* HACK IE11 */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .mega-menu .flex-ie {
+    flex: none;
+  }
+}
+
+.slide-prime.slick-slider {
+  background: rgba(1, 28, 77, 1);
+}
+.slide-prime .img_slide {
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+}
+.slide-prime .text_slide h5 {
+  font-size: 1.5em !important;
+  font-weight: 100;
+}
+.slide-prime .text_slide h2 {
+  font-size: 2.4em !important;
+  margin-bottom: 30px;
+}
+.slick_action li {
+  width: 23%;
+  margin: 0 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  background: transparent;
+  border: transparent 1px solid;
+  cursor: pointer;
+}
+.slick_action a {
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  width: 90%;
+}
+.slick_action li:hover {
+  background: linear-gradient(
+    0deg,
+    rgba(26, 60, 141, 1) 0%,
+    rgba(17, 45, 112, 1) 100%
+  );
+  border: rgba(0, 45, 120, 1) 1px solid;
+}
+.slick_action li.active {
+  background: rgba(26, 60, 141, 1);
+  background: linear-gradient(
+    0deg,
+    rgba(26, 60, 141, 1) 0%,
+    rgba(17, 45, 112, 1) 100%
+  );
+  border: rgba(0, 45, 120, 1) 1px solid;
+}
+.slick_action a h4 {
+  font-size: 1em !important;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.6);
+}
+.slick_action a h3 {
+  font-size: 1em !important;
+  margin-bottom: 0;
+  font-weight: 100;
+  margin-bottom: 5px;
+}
+.slick-slide a {
+  width: 100%;
+}
+@media (min-width: 770px) {
+  .container-fluid.text_slide {
+    background: transparent !important;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translatex(-50%);
+    -moz-transform: translatex(-50%);
+    -o-transform: translatex(-50%);
+    transform: translatex(-50%);
+    top: 0;
+    justify-content: flex-end;
+  }
+  .container.text_slide {
+    background: transparent !important;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translatex(-50%);
+    -moz-transform: translatex(-50%);
+    -o-transform: translatex(-50%);
+    transform: translatex(-50%);
+    top: 0;
+    justify-content: flex-end;
+  }
+  .slide-left {
+    justify-content: flex-end;
+  }
+  .slide-left .container.text_slide {
+    justify-content: flex-start;
+  }
+  .slide-prime .slide-left .img_slide {
+    order: 2;
+  }
+  .slide-prime .slide-left .img_slide:after {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    left: 0;
+  }
+  .slide-prime .slide-left .text_slide {
+    order: 1;
+  }
+  .slide-prime .slide-left .text_slide .offset-md-1,
+  .slide-full .text_slide .offset-md-1 {
+    margin-right: 8.333333%;
+  }
+  .slide-prime .slide-left .text_slide .row,
+  .slide-full .text_slide .row {
+    justify-content: flex-end;
+  }
+  .slide-full .img_slide:after {
+    display: none;
+  }
+  .slide-full .text_slide {
+    position: absolute;
+    z-index: 2;
+  }
+  .slide-full {
+    position: relative;
+  }
+  .slide-full:after {
+    content: "";
+    background: linear-gradient(
+      -90deg,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0) 100%
+    );
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+}
+@media (max-width: 769px) {
+  .slide-prime .slick-slide {
+    align-items: start;
+  }
+  .slide-prime .img_slide {
+    height: 70%;
+    background-position: left 20% top;
+  }
+  .cont_text_slide {
+    padding: 0 !important;
+  }
+  .slide-prime .slick-slider {
+    height: 500px !important;
+  }
+  .slide-prime.slick-slider {
+    background: url(https://portales.bancochile.cl/uploads/000/000/023/889b5109-0cdf-48ea-b80a-d65ea561a78d/original/bg_slide_m.svg);
+    background-color: white;
+    background-position: center bottom 100px;
+    background-repeat: no-repeat;
+    background-size: 102%;
+  }
+  .slide-prime .slick-slide {
+    margin: 20px;
+    position: relative;
+    height: 410px !important;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  .slide-prime .slick-slide .img_slide {
+    position: absolute;
+  }
+  .slide-prime .slick-slide:after {
+    display: none;
+  }
+  .slide-prime .slick-slide .text_slide {
+    position: absolute;
+    z-index: 2;
+    background: rgba(1, 28, 77, 1);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px;
+  }
+  .slide-prime .slick-slide .text_slide:after {
+    content: "";
+    bottom: 100%;
+    right: 0;
+    width: 100%;
+    height: 100px;
+    background: url(https://portales.bancochile.cl/uploads/000/000/104/8014e58c-b19c-4f76-a19b-fb15f8b7040a/original/curvaheroresp.svg);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: center bottom -5px;
+    position: absolute;
+  }
+  .slide-prime .slick-slide .text_slide .btn {
+    width: 100%;
+    display: block;
+    padding: 0.5rem 1.5rem;
+    font-size: 1em !important;
+  }
+  .slide-prime .text_slide h2 {
+    font-size: 1.5em !important;
+    margin-bottom: 15px;
+  }
+  .slide-prime .text_slide h5,
+  .slide-prime .text_slide h3 {
+    font-size: 1.2em !important;
+    font-weight: 100;
+  }
+  .slide-prime .slick-list {
+    padding: 0 30px;
+  }
+  .slide-prime .slick-dots {
+    margin-top: 15px;
+  }
+}
+@media (max-width: ) {
+  .slide-prime .slick-list {
+    padding: 0 10px;
+  }
+  .slide-prime .slick-slide {
+    margin: 5px;
+  }
+  .slide-prime .text_slide h2 {
+    font-size: 1.2em !important;
+  }
+  .slide-prime .text_slide h5,
+  .slide-prime .text_slide h3 {
+    font-size: 1em !important;
+  }
+}
+
+/** PRIME **/
+.slide-prime .img_slide:after {
+  content: "";
+  height: 100%;
+  width: 100px;
+  position: absolute;
+  background-image: url(https://portales.bancochile.cl/uploads/000/000/020/126d1d5e-3e96-4caa-84a8-531c0f06d832/original/curve_slide.svg);
+  right: -20px;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
+.slide-prime .img_slide.img_slide_lithg:after {
+  background-image: url(https://portales.bancochile.cl/uploads/000/000/067/f0cfb26c-5de0-4ded-9def-ee726c2fafa1/original/prime_curve_light.svg);
+}
+@media (max-width: 770px) {
+  .slide-prime .img_slide:after {
+    display: none;
+  }
+}
+/** CURVE **/
+.curve {
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  background-image: url(https://portales.bancochile.cl/uploads/000/000/056/a3a8dba2-74d2-49b3-9619-8968b453312e/original/bch_app.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.curve2 {
+  background-image: none;
+  background-color: #3a3939;
+}
+.curve3 {
+  background-image: none;
+  background-color: #eff0f4;
+}
+.curve_cuenta_plan_cuenta_joven {
+  background-image: url(https://portales.bancochile.cl/uploads/000/037/872/465a58bd-815e-4495-af3a-9ed0b493fb7c/original/Fan-joven2.jpg);
+}
+.curve_cuenta_kit_cuenta_joven {
+  background-image: url(https://portales.bancochile.cl/uploads/000/001/081/7a6dcc32-5268-4104-8f89-dafbfe78f0be/original/cuenta_joven3.jpg);
+}
+.curve_cuenta_tarjeta_cuenta_joven {
+  background-image: url(https://portales.bancochile.cl/uploads/000/001/082/5ed8f132-e0eb-4bbf-9c72-f3f0ef00bd8b/original/cuenta_joven4.jpg);
+}
+.curve_kit {
+  background-image: url(https://portales.bancochile.cl/uploads/000/000/084/a7fecf17-eee4-4e1b-a3ec-def767f42754/original/20170112064450-01061c72.png);
+}
+.curve_consumo_hero {
+  background-image: url(https://portales.bancochile.cl/uploads/000/001/014/2c0d603e-f969-4655-8390-a31b96f1ac9a/original/credito_consumo.jpg);
+}
+.curve_consumo_preaprobado {
+  background-image: url(https://portales.bancochile.cl/uploads/000/004/074/d1ccfd9e-82bb-4d1f-9c96-df2f36adbec1/original/credito_consumo_preaprobado2.jpg);
+}
+.curve_consumo_exclusivo {
+  background-image: url(https://portales.bancochile.cl/uploads/000/004/075/1703bfe4-6901-42cf-837b-9ae757897b1f/original/credito_consumo_exclusivo2.jpg);
+}
+.curve_consumo_libre {
+  background-image: url(https://portales.bancochile.cl/uploads/000/001/013/9ed95012-acbd-4cc6-905d-bd91a3a70720/original/credito_consumo_libre.jpg);
+}
+.curve_seguros {
+  background-image: url(https://portales.bancochile.cl/uploads/000/000/111/6af9e563-088c-4901-a96a-4eb0c12c6170/original/homeslide.png);
+}
+.curve_hipotecaria_tasa_fija {
+  background-image: url(https://portales.bancochile.cl/uploads/000/000/132/1a96f263-9538-4663-b8ac-7a42986748de/original/hipotecario-tasa-fija.png);
+}
+.curve_hipotecaria_tasa_mixta {
+  background-image: url(https://portales.bancochile.cl/uploads/000/000/133/b510c3d2-2679-463c-bd6a-c3fed34b1ede/original/hipotecario-tasa-mixta.png);
+}
+.curve_hipotecaria_convenios {
+  background-image: url(https://portales.bancochile.cl/uploads/000/000/134/3d2a8e3e-004a-4c2e-ab83-2ae78c859cdc/original/hipotecario-convenios.png);
+}
+.curve_cta_cte_tradicional {
+  background-image: url(https://portales.bancochile.cl/uploads/000/000/084/a7fecf17-eee4-4e1b-a3ec-def767f42754/original/20170112064450-01061c72.png);
+}
+.curve_cta_cte_pyme {
+  background-image: url(https://portales.bancochile.cl/uploads/000/000/143/94eba3e0-661a-46bb-bc3b-dbf7197d5677/original/cta_cte_pyme.png);
+}
+.curve_faq_seguros {
+  background-image: url(https://portales.bancochile.cl/uploads/000/000/143/94eba3e0-661a-46bb-bc3b-dbf7197d5677/original/cta_cte_pyme.png);
+}
+.curve_faq_seguros_det {
+  background-image: url(https://portales.bancochile.cl/uploads/000/000/147/2ef0815a-3925-40af-a03f-ebf147ff08bf/original/pareja_playa.png);
+}
+.curve_ahorro_nominal {
+  background-image: url(https://portales.bancochile.cl/uploads/000/001/438/e3e781c0-b3a9-48b9-b2b8-927c3e0bf848/original/ahorro_nominal.jpg);
+}
+.curve_ahorro_reajustable {
+  background-image: url(https://portales.bancochile.cl/uploads/000/001/435/4de81c44-f51e-4ccf-8a41-6d69662d21cc/original/ahorro_reajustable.jpg);
+}
+.curve_ahorro_previsional {
+  background-image: url(https://portales.bancochile.cl/uploads/000/001/437/57949f40-f0eb-4323-8649-8fd1c14fa28d/original/ahorro_apv.jpg);
+}
+.curve_inversiones_plazo {
+  background-image: url(https://portales.bancochile.cl/uploads/000/001/377/b6d11411-fac6-4015-a857-ec1827ac901e/original/deposito_plazo.jpg);
+}
+
+.curve_inversiones_fondos-mutuos {
+  background-image: url(https://portales.bancochile.cl/uploads/000/001/391/95269314-2e4f-4d93-8c40-8de6b7a38f01/original/fondos_mutuos.jpg);
+}
+
+.curve_inversiones_acciones {
+  background-image: url(https://portales.bancochile.cl/uploads/000/001/393/40d0d94e-5725-4655-a21f-b88558e258fa/original/acciones.jpg);
+}
+.curve_inversiones_moneda {
+  background-image: url(https://portales.bancochile.cl/uploads/000/001/394/86a1c180-0412-496a-b0bf-672be87f85da/original/moneda_extranjera.jpg);
+}
+.curve_inversiones_mutuos {
+  background-image: url(https://portales.bancochile.cl/uploads/000/001/392/dded1db0-687f-4f70-a357-c6f6b54f85f7/original/soluciones_activas.jpg);
+}
+.visa-platinum .curve,
+.visa-black .curve {
+  z-index: 0;
+}
+.visa-platinum .curve:after,
+.visa-black .curve:after {
+  z-index: -1;
+}
+.curve:after {
+  content: "";
+  height: 102%;
+  top: -1%;
+  width: 100%;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+.curve_primary:after {
+  background-image: url(https://portales.bancochile.cl/uploads/000/000/059/5f21a09d-9e47-4b25-b0e6-11bdcd927444/original/app_curve.svg);
+}
+.curve_primary_dark:after {
+  background-image: url(https://portales.bancochile.cl/uploads/000/000/064/42d0ca6b-c1ee-44b1-a172-ce9310062694/original/curve_primary_dark.svg);
+}
+.curve_primary_light:after {
+  background-image: url(https://portales.bancochile.cl/uploads/000/008/824/77f855a1-47e0-48ba-821b-b27283ea2b20/original/curve_primary_light.svg);
+}
+.curve_white:after {
+  background-image: url(https://portales.bancochile.cl/uploads/000/000/065/33d8101b-9280-42bf-a8a3-e5005b125aed/original/curve_white.svg);
+}
+.curve_gray:after {
+  background-image: url(https://portales.bancochile.cl/uploads/000/008/826/41f9621e-25b6-47b4-8164-35963c04e7c9/original/curve_gray.svg);
+}
+.curve_light:after {
+  background-image: url(https://portales.bancochile.cl/uploads/000/000/066/d9861e93-015b-433f-a8a9-0d0146cbf290/original/curve_light.svg);
+}
+.curve_black:after {
+  background-image: url(https://portales.bancochile.cl/uploads/000/000/082/ba83d213-6457-435b-a8c4-5629f6309b89/original/curve_black.svg);
+}
+.curve_right:after {
+  right: -5px;
+}
+.curve_left:after {
+  left: -5px;
+  -webkit-transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.white_curve_bottom {
+  position: relative;
+  overflow: hidden;
+  min-height: 115px;
+}
+.white_curve_bottom:after {
+  content: "";
+  background-image: url(https://portales.bancochile.cl/uploads/000/000/036/f808cfe9-d705-4d91-a1b8-29965f5a0f2a/original/bottom_curve.svg);
+  position: absolute;
+  z-index: 2;
+  height: 100%;
+  bottom: -3px;
+  left: -2px;
+  right: -2px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+.white_curve_bottom img {
+  position: relative;
+  z-index: 1;
+}
+.white_curve_right {
+  position: relative;
+}
+.white_curve_right:after {
+  content: "";
+  background-image: url(https://portales.bancochile.cl/uploads/000/000/437/6d6eca01-04a7-4ab3-8112-b93f3a8b3405/original/bottom_right.svg);
+  position: absolute;
+  z-index: 2;
+  height: auto;
+  top: -2px;
+  bottom: -2px;
+  right: -2px;
+  left: 0;
+  width: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+.white_curve_right img {
+  position: relative;
+  z-index: 1;
+}
+
+.hero_big.cont_hero .img_hero {
+  min-height: 450px;
+}
+.hero_big.cont_hero .img_hero img {
+  max-height: 380px;
+}
+.cont_hero,
+.hero_big.cont_hero {
+  height: 100%;
+  overflow: hidden;
+}
+.cont_hero.hero_xs,
+.hero_xs.cont_hero .img_hero {
+  height: 250px;
+}
+.cont_hero .img_hero,
+.img_hero2 {
+  min-height: 350px;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+  text-align: center;
+  margin: 0;
+}
+/*IE*/
+@media all and (-ms-high-contrast: none) {
+  .cont_hero .text_hero h2 {
+    font-size: 2.3em !important;
+  }
+}
+.cont_hero .text_hero {
+  padding-top: 0.75rem;
+}
+.cont_hero .text_hero .h5,
+.cont_hero .text_hero .h1 {
+  font-size: 1.5em !important;
+  font-weight: 100;
+}
+.cont_hero .text_hero h2 {
+  font-size: 2.4em !important;
+  margin-bottom: 10px !important;
+}
+.cont_hero .text_hero h2 b,
+.cont_hero .text_hero h2 span,
+.cont_hero .text_hero h2 strong {
+  font-size: 1em !important;
+}
+.cont_hero .img_hero:after {
+  content: "";
+  height: 100%;
+  width: 100px;
+  position: absolute;
+  background-image: url(https://portales.bancochile.cl/uploads/000/000/020/126d1d5e-3e96-4caa-84a8-531c0f06d832/original/curve_slide.svg);
+  right: -2px;
+  background-size: auto 100%;
+  background-position: right;
+  background-repeat: no-repeat;
+  top: 0;
+  bottom: 0;
+}
+.cont_hero .img_hero2:after {
+  content: "";
+  height: 100%;
+  width: 100px;
+  position: absolute;
+  background-image: url(https://portales.bancochile.cl/uploads/000/000/020/126d1d5e-3e96-4caa-84a8-531c0f06d832/original/curve_slide.svg);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  -webkit-transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  transform: scaleX(-1);
+  background-position: right;
+  left: -1px;
+}
+.cont_hero.hero_light .img_hero:after {
+  background-image: url(https://portales.bancochile.cl/uploads/000/000/067/f0cfb26c-5de0-4ded-9def-ee726c2fafa1/original/prime_curve_light.svg);
+}
+.img_hero2 img {
+  max-height: 220px;
+  margin-bottom: -2em;
+}
+.img_hero img {
+  height: 100%;
+}
+@media (min-width: 770px) {
+  .hero_layout .slick-dots {
+    bottom: -40px;
+    z-index: 3;
+    position: absolute;
+  }
+
+  .img_hero2 img {
+    max-height: 350px;
+    margin-bottom: 0;
+  }
+
+  .img_hero2 img {
+    padding: 3rem 4rem 0 4rem;
+  }
+}
+@media (max-width: 770px) {
+  .cont_hero .img_hero,
+  .img_hero2 {
+    text-align: center;
+  }
+  .cont_hero {
+    width: 100%;
+    padding: 20px 10%;
+    background: url(https://portales.bancochile.cl/uploads/000/000/023/889b5109-0cdf-48ea-b80a-d65ea561a78d/original/bg_slide_m.svg);
+    background-color: transparent !important;
+    background-position: center top -15px;
+    background-repeat: no-repeat;
+    background-size: 102%;
+    height: auto !important;
+  }
+  .cont_hero .img_hero,
+  .cont_hero .img_hero2 {
+    height: 250px !important;
+    position: relative;
+    min-height: initial;
+  }
+  .cont_hero .hero {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.3) !important;
+  }
+  .cont_hero .img_hero:after,
+  .cont_hero .img_hero2:after {
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: url(https://portales.bancochile.cl/uploads/000/000/104/8014e58c-b19c-4f76-a19b-fb15f8b7040a/original/curvaheroresp.svg);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: center bottom -5px;
+  }
+  .cont_hero .text_hero {
+    padding: 20px;
+    color: #fff !important;
+  }
+  .cont_hero .text_hero * {
+    color: #fff !important;
+    margin-bottom: 0 !important;
+  }
+  .cont_hero .text_hero .btn {
+    margin-top: 20px;
+  }
+  .cont_hero .text_hero_det_apps {
+    padding: 20px;
+    font-size: 12px;
+  }
+  .cont_hero .text_hero h2 {
+    font-size: 2em !important;
+  }
+}
+
+#breadcrumbs {
+  overflow: auto;
+  white-space: nowrap;
+}
+#breadcrumbs a,
+#breadcrumbs span {
+  color: white;
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+#breadcrumbs a.bc_back {
+  background: rgba(255, 255, 255, 0.1);
+}
+#breadcrumbs span {
+  background: #0a3496;
+}
+#breadcrumbs a:hover {
+  background: #0a3496;
+  transition: all 0.3s ease;
+  color: white !important;
+}
+#breadcrumbs a:not(:first-child) {
+  color: rgba(210, 210, 210, 1);
+}
+.ayuda_bc {
+  border-radius: 10px 15px 15px 10px;
+  width: 350px;
+}
+.ayuda_bc .nav-link:nth-child(2) {
+  width: 250px;
+  position: relative;
+}
+.ayuda_bc .nav-link:nth-child(2):after {
+  background-color: rgba(255, 255, 255, 1);
+  content: "";
+  display: block;
+  height: 38px;
+  width: 38px;
+  transform: rotate(45deg);
+  border-radius: 0 10px 0 0;
+  right: -13px;
+  top: -3px;
+  position: absolute;
+  box-shadow: 5px -3px 6px rgba(0, 0, 0, 0.04);
+}
+.ayuda_bc .nav-link:first-child {
+  position: relative;
+  width: 100px;
+}
+.ayuda_bc .nav-link:first-child:after {
+  font-family: "Line Awesome Free";
+  content: "\f105";
+  font-weight: 900;
+  font-size: 3rem;
+  position: absolute;
+  top: -10px;
+  right: -40px;
+  color: rgb(206, 215, 224);
+}
+
+/* s: lists_css */
+ul.check_secondary {
+  margin-left: 0;
+  padding-left: 0;
+}
+ul.check_secondary li {
+  padding-left: 30px;
+  list-style: none;
+  margin-bottom: 1rem;
+  position: relative;
+}
+ul.check_secondary li:before {
+  font-family: "Line Awesome Free";
+  font-weight: 900;
+  content: "\f00C";
+  color: rgba(79, 125, 255, 1);
+  position: absolute;
+  left: 0;
+  font-size: 18px;
+}
+ul.check_secondary li.col-6 {
+  padding-left: 50px !important;
+}
+
+/* list icon file */
+
+ul.list-file {
+  list-style: none;
+  padding-inline-start: 40px !important;
+  padding-left: 40px !important;
+}
+
+ul.list-file li.list-file-item {
+  position: relative;
+  margin: 0 0 1rem;
+}
+
+ul.list-file li.list-file-item a::after {
+  font-family: "BCH_iconos2";
+  position: absolute;
+  left: -30px;
+  top: -2px;
+  font-size: 24px;
+}
+
+ul.list-file li.list-file-item a[href$=".pdf"]::after {
+  content: "\e90a";
+}
+
+ul.list-file li.list-file-item a[href$=".html"]::after {
+  content: "\e90b";
+}
+ul.ulnostyle,
+ul.ulnostyle li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav_beneficios {
+  margin-left: -0.5%;
+  margin-right: -0.5%;
+}
+.nav_beneficios a {
+  color: #8c8cad;
+  text-align: center;
+  padding: 15px 5px;
+  border-radius: 10px;
+  background: #fff;
+  width: 100%;
+  margin: 0 0.5%;
+  overflow: hidden;
+  position: relative;
+  font-size: 12px;
+  transition: 0.3s;
+}
+.nav_beneficios a:hover,
+.nav_beneficios a.active {
+  background: #f8f8fa;
+  transition: 0.3s;
+}
+.nav_beneficios a:after {
+  content: "";
+  background: transparent;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  right: 0;
+  transition: 0.3s;
+}
+.nav_beneficios a:hover:after,
+.nav_beneficios a.active:after {
+  background: rgba(79, 125, 255, 1);
+  transition: 0.3s;
+}
+.nav_beneficios a i {
+  color: rgba(79, 125, 255, 1);
+  font-size: 40px;
+  margin-bottom: 15px;
+  display: block;
+}
+.sub_nav_beneficios {
+  background: #f1f1f9;
+  border-radius: 15px;
+  padding: 5px 10px;
+  overflow: auto;
+}
+.sub_nav_beneficios a {
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 50px;
+  color: #8c8cad;
+  border: 1px solid;
+  border-color: #dadaf5;
+  transition: 0.3s;
+  white-space: nowrap;
+}
+.sub_nav_beneficios a.active,
+.sub_nav_beneficios a:hover {
+  transition: 0.3s;
+  color: white;
+  background: rgba(1, 34, 93, 1);
+  border-color: rgba(1, 34, 93, 1);
+}
+.submenu {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+@media (max-width: 770px) {
+  #nav_beneficios {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    z-index: 999;
+    flex-direction: column;
+    margin: 0 !important;
+    padding: 2em;
+    transition: all 0.3s ease;
+    transform: translateY(100%);
+  }
+  .open_nav #nav_beneficios {
+    transition: all 0.3s ease;
+    transform: translateY(0%);
+  }
+  .nav_beneficios {
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: start !important;
+  }
+  .nav_beneficios a {
+    width: 29.33%;
+    margin: 2%;
+  }
+  .close_nav_beneficios {
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  .nav_beneficios a:after {
+    display: none;
+  }
+  .nav_beneficios a {
+    border: 1px solid transparent;
+  }
+  .nav_beneficios a:hover,
+  .nav_beneficios a.active {
+    border: 1px solid rgba(1, 34, 93, 1);
+  }
+  .open_nav {
+    overflow: hidden;
+  }
+  .cont_beneficio_show.cont_promos a {
+    height: auto !important;
+  }
+  .cont_beneficio_show.cont_promos a:after {
+    display: none;
+  }
+  .cont_beneficio_show.cont_promos a figure {
+    position: relative;
+    height: 200px;
+  }
+  .cont_beneficio_show.cont_promos a figcaption {
+    position: relative;
+    color: #000;
+    height: auto;
+    top: auto;
+    bottom: auto !important;
+    right: auto !important;
+    font-weight: normal;
+  }
+  .cont_beneficio_show.cont_promos a figcaption h6 {
+    font-weight: normal;
+  }
+  .cont_beneficio_show.cont_promos a span.seemore {
+    display: none !important;
+  }
+  .sub_nav_beneficios {
+    margin-bottom: 20px;
+  }
+  .cont_beneficio_show.cont_promos a figure span {
+    display: inline-block !important;
+  }
+}
+@media (max-width: 576px) {
+  .nav_beneficios a {
+    width: 46%;
+    margin: 2%;
+  }
+}
+
+/* s: beneficios_css */
+
+.contenedorBotones .cont_cats {
+  display: flex;
+  justify-content: space-around;
+}
+.contenedorBotones .cont_cats a {
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+  color: rgba(1, 34, 93, 1);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.1) !important;
+  margin: 10px;
+  width: 100%;
+}
+.contenedorBotones .cont_cats i {
+  color: rgba(1, 34, 93, 1);
+  font-size: 40px;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.cont_cats {
+  display: flex;
+  justify-content: space-around;
+}
+.cont_cats a {
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+  color: #8c8cad;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.1) !important;
+  margin: 10px;
+  width: 100%;
+}
+.cont_cats i {
+  color: rgba(79, 125, 255, 1);
+  font-size: 40px;
+  margin-bottom: 15px;
+  display: block;
+}
+.que_es_travel {
+  background-image: url(https://portales.bancochile.cl/uploads/000/000/098/1f67b607-0400-4ea4-a0a3-9f9721b702dd/original/bg-quees.png);
+  background-repeat-x: no-repeat;
+  background-position: right;
+  background-size: 60%;
+}
+@media (max-width: 770px) {
+  .cont_cats {
+    flex-direction: column;
+  }
+  .cont_cats a {
+    box-shadow: none !important;
+    text-align: left;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 1.3em;
+  }
+  .que_es_travel {
+    background: rgba(250, 250, 255, 1) !important;
+    background-image: none !important;
+  }
+  .que_es_travel .align-items-end {
+    background: rgba(1, 34, 93, 1);
+    border-radius: 15px;
+  }
+  .que_es_travel .align-items-end:nth-child(odd) {
+    background: rgba(1, 28, 77, 1);
+  }
+  .cont_cats i {
+    margin-bottom: 0;
+    margin-right: 15px;
+  }
+}
+
+.mt--30 {
+  margin-top: -30px;
+  position: relative;
+  z-index: 2;
+}
+.cont_hero.cont_hero_beneficios {
+  position: relative;
+  z-index: 1;
+}
+.bc_beneficios {
+  display: flex;
+  border-radius: 15px 0px 0px 15px;
+  position: relative;
+  align-items: center;
+  background: rgba(250, 250, 255, 1);
+}
+.bc_beneficios a {
+  padding: 15px 25px;
+  color: rgba(79, 125, 255, 1);
+  font-weight: bold;
+}
+.bc_beneficios i {
+  color: #bdc2ca;
+  font-size: 30px;
+}
+.bc_beneficios:after {
+  content: "";
+  position: absolute;
+  right: -23px;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 23px solid transparent;
+  border-left: 23px solid rgba(250, 250, 255, 1);
+  border-top: 23px solid transparent;
+  clear: both;
+}
+
+.bc_beneficios.bg-white:after {
+  border-left-color: rgba(255, 255, 255, 1);
+}
+
+.slide_beneficios,
+.slide_beneficios .slick-track,
+.slide_beneficios .slick-list.draggable {
+  height: 250px !important;
+}
+.slide_beneficios .slick-slide {
+  height: 250px !important;
+  /*background: #F7F7F7;*/
+  align-items: center;
+  justify-content: center;
+}
+.slide_beneficios .slick-slide img {
+  width: 100%;
+}
+.slide_nav {
+  display: flex;
+  justify-content: start;
+  margin-left: -1%;
+  margin-right: -1%;
+  margin-top: 10px;
+}
+.slide_nav span {
+  background: #f7f7f7;
+  display: flex;
+  align-items: center;
+  width: 18%;
+  margin: 1%;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.slide_nav span:hover {
+  border: 2px solid #ccc;
+}
+.slide_nav span.active {
+  border: 2px solid rgba(79, 125, 255, 1);
+}
+.cont_beneficio .condiciones {
+  background: #e7eff9;
+}
+.cont_beneficio .condiciones small p:last-child {
+  margin: 0 !important;
+}
+.cont_beneficio .contacto {
+}
+.cont_beneficio .contacto p {
+  display: flex;
+  align-items: center;
+}
+.cont_beneficio .contacto p i {
+  font-size: 40px;
+  margin-right: 10px;
+}
+.cont_beneficio .contacto p a {
+  color: #7a8198;
+}
+.cont_beneficio .contacto p a:hover {
+  text-decoration: underline;
+}
+.cont_beneficio iframe {
+  width: 100% !important;
+  height: 200px !important;
+  border: 0 !important;
+  margin-bottom: 20px;
+}
+.slide_beneficios .slick-dots {
+  margin-top: 20px;
+}
+@media (max-width: 770px) {
+  .slide_beneficios,
+  .slide_beneficios .slick-track,
+  .slide_beneficios .slick-list.draggable {
+    height: auto !important;
+  }
+
+  .cont_hero.cont_hero_beneficios .img_hero:after {
+    display: none;
+  }
+  .cont_beneficio {
+    background: none;
+    padding: 0px 10%;
+  }
+  .cont_beneficio .container {
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 0;
+    width: auto;
+    max-width: 2000px;
+  }
+  .cont_beneficio .container .rounded {
+    border-radius: 0 !important;
+  }
+  .cont_hero_beneficios.cont_hero .hero {
+    border-radius: 20px 20px 0px 0px !important;
+  }
+  .bc_beneficios {
+    background: transparent;
+  }
+  .bc_beneficios:after {
+    display: none;
+  }
+  .bc_beneficios.box-shadow {
+    box-shadow: none !important;
+  }
+  .bc_beneficios a {
+    padding: 10px 10px;
+  }
+}
+
+.tabs_dropdown .nav-item {
+  border-radius: 5px 5px 0 0;
+  background-color: #efeffc;
+  margin-right: 5px;
+}
+
+.tabs_dropdown .nav-tabs .nav-link {
+  width: 100%;
+}
+.tabs_dropdown .nav-tabs .active {
+  border-top: 2px solid rgba(79, 125, 255, 1);
+  border-radius: 5px 5px 0 0;
+  color: rgba(1, 34, 93, 1) !important;
+}
+.nav-tabs.nav-tabs-dropdown,
+.nav-tabs-dropdown {
+  border: none;
+}
+.tabs_slick_wrapper .slick-track {
+  min-width: 900px;
+}
+.tabs_slick_wrapper .slick-slide {
+  height: 250px !important;
+  min-width: 350px;
+}
+.tabs_slick_wrapper,
+.tabs_slick_wrapper .slick-list.draggable {
+  height: 300px !important;
+}
+@media (max-width: 767px) {
+  .tabs_dropdown {
+    background-color: white !important;
+  }
+  .nav-tabs-dropdown li.nav-item {
+    background-color: white;
+    margin: 0;
+  }
+  .nav-tabs.nav-tabs-dropdown,
+  .nav-tabs-dropdown {
+    background-color: white;
+    border: 1px solid rgba(79, 125, 255, 1);
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+  }
+  .nav-tabs.nav-tabs-dropdown::after,
+  .nav-tabs-dropdown::after {
+    font-family: "Line Awesome Free";
+    content: "\f078";
+    font-weight: 900;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    pointer-events: none;
+    color: rgba(79, 125, 255, 1);
+  }
+  .nav-tabs.nav-tabs-dropdown.open,
+  .nav-tabs-dropdown.open {
+    padding: 10px 0 10px 0;
+  }
+  .nav-tabs.nav-tabs-dropdown.open a,
+  .nav-tabs-dropdown.open a {
+    display: block;
+  }
+  .nav-tabs.nav-tabs-dropdown > li > a,
+  .nav-tabs-dropdown > li > a {
+    display: none;
+    border-radius: 0px;
+  }
+  .nav-tabs.nav-tabs-dropdown > li > a.active,
+  .nav-tabs-dropdown > li > a.active {
+    display: block;
+    border-color: transparent;
+    border-radius: 0px;
+    color: rgba(79, 125, 255, 1) !important;
+  }
+  .nav-tabs.nav-tabs-dropdown > li > a:hover {
+    color: white !important;
+    background-color: rgba(79, 125, 255, 1);
+  }
+  .nav-tabs.nav-tabs-dropdown:hover::after,
+  .nav-tabs-dropdown:hover::after {
+    color: white !important;
+  }
+  .nav-tabs.nav-tabs-dropdown.open::after,
+  .nav-tabs-dropdown.open::after {
+    top: 20px;
+  }
+}
+@media (min-width: 770px) {
+  .nav-tabs-dropdown .nav-link {
+    padding: 0.8rem 1rem;
+    text-transform: uppercase;
+  }
+
+  .nav-tabs.nav-tabs-dropdown .nav-item {
+    display: flex;
+    flex: 1;
+    flex-basis: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .nav-tabs-dropdown .nav-link {
+    padding: 0.8rem 1.5rem;
+  }
+
+  .nav-tabs.nav-tabs-dropdown .nav-item {
+    display: initial;
+    flex: initial;
+    flex-basis: initial;
+  }
+}
+
+@media all and (min-width: 770px) and (-ms-high-contrast: none),
+  (-ms-high-contrast: active) {
+  /* IE10+ CSS here */
+  .nav-tabs.nav-tabs-dropdown .nav-item {
+    flex-basis: auto;
+  }
+}
+
+#form_hazte_cliente {
+  width: 80%;
+  background: #fff;
+  padding: 20px 0;
+  border: none;
+  border-radius: 30px;
+  height: 555px;
+  transform: translateY(-50%);
+  position: relative;
+  z-index: 2;
+}
+.form_hazte_cliente_banca_joven {
+  width: 80%;
+  background: #fff;
+  padding: 20px 0;
+  border: none;
+  border-radius: 30px;
+  height: 680px;
+  transform: translateY(-40%);
+  position: relative;
+  z-index: 2;
+}
+@media (max-width: 768px) {
+  .form_hazte_cliente_banca_joven {
+    width: 100%;
+    transform: translateY(-15%);
+  }
+}
+.card-img-bg {
+  color: white;
+  padding: 60px 60px 20px 20px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+.card-img-bg:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+.card-img-bg:hover {
+  color: white;
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+.card-img-bg h3,
+.card-img-bg p {
+  position: relative;
+  z-index: 2;
+}
+@media (max-width: 770px) {
+  #form_hazte_cliente {
+    transform: translateY(0%);
+    margin-top: -250px;
+    width: 100%;
+  }
+  .hero_hc .hero {
+    background: transparent !important;
+    box-shadow: none !important;
+    padding-top: 0;
+  }
+  .hero_hc .hero .bg-primary {
+    background: transparent !important;
+    padding-top: 10px;
+    padding-bottom: 150px;
+    height: auto !important;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 2;
+    position: relative;
+  }
+  .cont_hero.hero_hc .img_hero:after {
+    display: none;
+  }
+}
+
+.cont_404 {
+  background-image: url(https://portales.bancochile.cl/uploads/000/000/163/84d2e2d8-cac7-48e7-ab21-d376c967a746/original/404.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  position: relative;
+}
+.cont_404:after {
+  content: "";
+  background: rgba(1, 34, 93, 0.8);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.cont_404 .container {
+  z-index: 2;
+  position: relative;
+}
+
+.box_404 {
+  background: rgba(1, 34, 93, 0.5);
+  width: 100%;
+  display: block;
+  padding: 20px 15px;
+  border: 1px solid rgba(79, 125, 255, 1);
+  border-radius: 15px 15px 0px 0px;
+}
+.box_404 a {
+  display: block;
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 0.7);
+  transition: all 0.3s ease;
+}
+.box_404 a:hover {
+  color: rgba(255, 255, 255, 1);
+  transition: all 0.3s ease;
+}
+
+.context-layouts-show-detalle-seguros #main-layout {
+  background-color: white;
+}
+@media (min-width: 770px) {
+  #cubre p strong {
+    color: black;
+  }
+}
+.cont_cotizador {
+  display: flex;
+}
+.cont_btn_cotizador {
+  display: none;
+}
+@media (max-width: 770px) {
+  .cont_cotizador {
+    display: none;
+  }
+  .cont_cotizador.show {
+    display: flex;
+  }
+  .cont_cotizador a {
+    display: block;
+    width: 100%;
+  }
+  .cont_cotizador [class^="col-"] {
+    border: none !important;
+  }
+  .cont_btn_cotizador {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+#seguros .bg-banner-cover {
+  background: url(https://portales.bancochile.cl/uploads/000/035/167/0ec8a481-b757-45af-bf26-682a04396829/original/rectangles_1_.png) !important;
+}
+
+#segurosTab a:hover,
+#segurosTab a.active {
+  color: rgba(1, 34, 93, 1);
+}
+
+#segurosTabContent .cont_img_seguros_full,
+.cont_img_seguros_dbl {
+  height: 350px;
+}
+#segurosTabContent .list-small .cont_img_seguros_full {
+  height: 260px;
+}
+
+#segurosTabContent .cont_img_seguros_half {
+  height: 160px;
+}
+
+#segurosTabContent .seguros_content .cont_img_seguros_half {
+  height: 217px;
+}
+
+#segurosTabContent a {
+  height: 100%;
+  display: flex;
+  position: relative;
+}
+
+#segurosTabContent a figure {
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.08) !important;
+  background-size: cover;
+  width: 100%;
+  margin: 0;
+}
+
+#segurosTabContent a:hover {
+  box-shadow: 0 0.8rem 1.3rem rgba(0, 0, 0, 0.15) !important;
+  transition: all 0.3s ease;
+}
+
+#segurosTabContent a figcaption h4 {
+  transform: translateY(1rem);
+  transition: all 0.3s ease;
+}
+
+#segurosTabContent a:hover figcaption h4 {
+  transition: all 0.3s ease;
+  transform: translateY(0);
+}
+
+#segurosTabContent a figcaption {
+  padding: 20px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+  color: white;
+  font-size: 1.5em;
+  background: linear-gradient(
+    180deg,
+    rgba(27, 26, 26, 0.0001) 7.34%,
+    #161515 81.89%
+  );
+  border-radius: 15px;
+}
+
+#segurosTabContent .seguros_destacados .col-md-4 .col-12 a figcaption,
+#segurosTabContent .seguros_content .col-md-4 a figcaption {
+  font-size: 1.2em;
+}
+
+.nav_seguros {
+  margin-left: -0.5%;
+  margin-right: -0.5%;
+}
+.nav_seguros a {
+  color: #8c8cad;
+  text-align: center;
+  padding: 15px 5px;
+  border-radius: 10px;
+  background: #fff;
+  width: 100%;
+  margin: 0 0.5%;
+  position: relative;
+  font-size: 12px;
+  transition: 0.3s;
+  white-space: normal;
+}
+.nav_seguros a:hover,
+.nav_seguros a.active {
+  background: #f8f8fa;
+  transition: 0.3s;
+}
+.nav_seguros a:after {
+  content: "";
+  background: transparent;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  right: 0;
+  transition: 0.3s;
+}
+.nav_seguros a:hover:after,
+.nav_seguros a.active:after {
+  background: rgba(79, 125, 255, 1);
+  transition: 0.3s;
+}
+.nav_seguros a i {
+  color: rgba(79, 125, 255, 1);
+  font-size: 40px;
+  margin-bottom: 15px;
+  display: block;
+}
+
+@media (max-width: 770px) {
+  #segurosTab {
+    width: 730px !important;
+  }
+  #nav_seguro {
+    overflow: auto;
+    white-space: nowrap;
+    padding-bottom: 10px;
+  }
+  #segurosTabContent .seguros_destacados .cont_img_seguros_full {
+    height: 217px;
+  }
+}
+.form_select {
+  position: relative;
+}
+.form_select label {
+  position: absolute;
+  margin: 0;
+  left: 5px;
+  margin-top: -5px;
+  padding: 0 10px;
+}
+.form_select select {
+  background: rgba(26, 60, 141, 1) !important;
+  color: #fff;
+  padding: 10px;
+  height: 45px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.video_aplicaciones {
+  max-width: 650px;
+  width: 100%;
+  margin: 0 auto;
+}
+.video_aplicaciones .video__wrapper {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+.video_aplicaciones .video__wrapper iframe {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.apps_funciones_tabs .nav-link {
+  border-radius: 10px !important;
+}
+.apps_funciones_tabs .nav-link.active {
+  background-color: rgba(79, 125, 255, 1) !important;
+  color: white !important;
+}
+.nav-link.active i {
+  color: white !important;
+}
+.apps_funciones_content .carousel-item .rounded {
+  border-radius: 15px !important;
+}
+.apps_funciones_content .carousel-indicators {
+  bottom: 0px !important;
+}
+.apps_funciones_content .carousel-indicators li {
+  background-color: rgba(210, 210, 210, 1);
+  cursor: pointer;
+  height: 5px;
+  border-radius: 2px;
+}
+.apps_funciones_content .carousel-indicators li.active {
+  background-color: rgba(79, 125, 255, 1);
+}
+.apps_tabs_pills {
+  min-height: 50px;
+}
+@media (max-width: 770px) {
+  .apps_funciones_tabs {
+    overflow: auto;
+  }
+  .apps_tabs_pills {
+    width: 200px;
+  }
+}
+@media (min-width: 770px) {
+  .apps_funciones_content .carousel-item .rounded {
+    transform: translateY(-30px);
+  }
+  .apps_funciones_content .carousel-item img {
+    height: 274px;
+  }
+}
+
+.cuota-paragraph {
+  font-size: 20px; /* Tamaño de fuente personalizado */
+  color: #0d6efd; /* Color de texto personalizado */
+  font-weight: bold; /* Texto en negrita */
+  margin-top: 10px; /* Espacio superior personalizado */
+}
